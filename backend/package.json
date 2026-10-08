@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node server.js",
+    "dev": "node api.js && node --watch server.js",
+    "start": "node api.js && node server.js",
     "test:api": "node scripts/test-api.js",
     "test": "node scripts/test-api.js",
     "test:multiplayer": "node scripts/test-multiplayer-room.js",
